@@ -20,11 +20,8 @@
     <li><strong>Configuração do Banco de Dados:</strong>
       <ul>
         <li>Certifique-se de ter um servidor PostgreSQL em execução.</li>
-        <li>Crie um banco de dados e configure as credenciais nos arquivos <code>.env</code> e <code>knexfile.js</code>.</li>
+        <li>Crie um banco de dados e configure as credenciais no arquivo <code>.env</code>.</li>
       </ul>
-    </li>
-    <li><strong>Migração do Banco de Dados:</strong>
-      <pre>npx knex migrate:latest</pre>
     </li>
   </ol>
 
